@@ -25,17 +25,17 @@
 </div>
 ```
 
--   Puedes personalizas las clases a tu gusto
+-   Puedes personalizar el estilo del modal a tu gusto
 
 ## Configuraciones
 
-| propiedad       | tipo                 | descripcion                                 |
-| --------------- | -------------------- | ------------------------------------------- |
-| startOnLoad     | boolean              | abre al modal cuando haya cargado la pagina |
-| colorText       | string: hexadecimal  | color del texto: '#000000'                  |
-| colorBackground | string: hexadecimal  | color del fondo: '#ffffff'                  |
-| colorBorder     | string: heaxadecimal | color del borde: '#00ffff'                  |
+| propiedad       | tipo                 | descripcion                                     |
+| --------------- | -------------------- | ----------------------------------------------- |
+| startOnLoad     | boolean              | abre al modal cuando haya cargado la pagina     |
+| colorText       | string: hex-rgb-rgba | color del texto: '#000000' - 'rgb()' - 'rgba()' |
+| colorBackground | string: hex-rgb-rgba | color del fondo: '#000000' - 'rgb()' - 'rgba()' |
+| colorBorder     | string: hex-rgb-rgba | color del borde: '#000000' - 'rgb()' - 'rgba()' |
 
 ## Autor
 
-**Eduardo May**
+**[Eduardo May](https://github.com/EduardoMay)**
