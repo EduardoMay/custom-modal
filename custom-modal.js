@@ -3,6 +3,7 @@ const CustomModal = {
 	colorTxt: '',
 	colorBg: '',
 	colorBr: '',
+	sizeBr: '',
 	configs: function () {
 		localStorage.setItem('statusActiveModal', '');
 	},
@@ -21,7 +22,6 @@ const CustomModal = {
 		this.toggleClassName();
 	},
 	toggleClassName: function () {
-		document.querySelector('.blur').classList.toggle('active');
 		document.querySelector('.popup').classList.toggle('active');
 		document.querySelector('.popup__container').classList.toggle('active');
 	},
@@ -30,17 +30,20 @@ const CustomModal = {
 		popupEl.style.color = colorTxt;
 		popupEl.style.background = colorBg;
 		popupEl.style.borderColor = colorBr;
+		popupEl.style.borderWidth = sizeBr;
 	},
 	start: function ({
 		startOnLoad = false,
 		colorText = '#000000',
 		colorBackground = '#ffffff',
 		colorBorder = '',
+		sizeBorder = '1rem',
 	}) {
 		activeOnScroll = startOnLoad;
 		colorTxt = colorText;
 		colorBg = colorBackground;
 		colorBr = colorBorder;
+		sizeBr = sizeBorder;
 
 		this.configs();
 		this.viewModaOnScroll();

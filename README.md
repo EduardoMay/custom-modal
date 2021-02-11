@@ -2,7 +2,6 @@
 
 ## Instrucciones
 
--   Agregar las siguientes clases en el contenedor padre del todo el contenido de la pagina, menos en el body: `page blur`
 -   Estructura html del popup:
 
 ```html
@@ -35,6 +34,7 @@
 | colorText       | string: hex-rgb-rgba | color del texto: '#000000' - 'rgb()' - 'rgba()' |
 | colorBackground | string: hex-rgb-rgba | color del fondo: '#000000' - 'rgb()' - 'rgba()' |
 | colorBorder     | string: hex-rgb-rgba | color del borde: '#000000' - 'rgb()' - 'rgba()' |
+| sizeBorder      | string: px-em-rem    | grosor del borde: '16px' - '1em' - '1rem'       |
 
 ## Autor
 
